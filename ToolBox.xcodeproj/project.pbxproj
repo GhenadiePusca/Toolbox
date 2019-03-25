@@ -8,12 +8,89 @@
 
 /* Begin PBXBuildFile section */
 		C414E08C2248BC3400181D17 /* ToolBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C414E08A2248BC3400181D17 /* ToolBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C414E0932248BC7D00181D17 /* Lodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0922248BC7D00181D17 /* Lodable.swift */; };
+		C414E0A02248BD5200181D17 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E09F2248BD5200181D17 /* Dynamic.swift */; };
+		C414E0A22248BDB800181D17 /* Dictionary+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0A12248BDB800181D17 /* Dictionary+Utils.swift */; };
+		C414E0A42248BDE600181D17 /* Collection+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0A32248BDE600181D17 /* Collection+Utils.swift */; };
+		C414E0A62248BE2100181D17 /* UIButton+TapClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0A52248BE2100181D17 /* UIButton+TapClosure.swift */; };
+		C414E0A82248BE3C00181D17 /* UIView+TouchAreaInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0A72248BE3C00181D17 /* UIView+TouchAreaInsets.swift */; };
+		C414E0AA2248BE5700181D17 /* UITableView+HeaderFooterLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0A92248BE5700181D17 /* UITableView+HeaderFooterLayout.swift */; };
+		C414E0AC2248BE6D00181D17 /* PropertyGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0AB2248BE6D00181D17 /* PropertyGetter.swift */; };
+		C414E0AE2248BE9300181D17 /* UIView+TapClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0AD2248BE9300181D17 /* UIView+TapClosure.swift */; };
+		C414E0B62248C02C00181D17 /* PasstroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0B52248C02C00181D17 /* PasstroughView.swift */; };
+		C414E0BA2248C0BE00181D17 /* CellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414E0B92248C0BE00181D17 /* CellContentView.swift */; };
+		C4214B532248C2EE00465834 /* UIStackView+RemoveAllSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B522248C2EE00465834 /* UIStackView+RemoveAllSubviews.swift */; };
+		C4214B582248C39200465834 /* ConfigurableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B572248C39200465834 /* ConfigurableProtocols.swift */; };
+		C4214B5A2248C3BA00465834 /* ConfigurableTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B592248C3BA00465834 /* ConfigurableTableViewRow.swift */; };
+		C4214B5C2248C3CC00465834 /* ConfigurableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B5B2248C3CC00465834 /* ConfigurableTableView.swift */; };
+		C4214B5E2248C3E500465834 /* ConfigurableTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B5D2248C3E500465834 /* ConfigurableTableViewSection.swift */; };
+		C4214B602248C3FE00465834 /* ConfigurableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B5F2248C3FE00465834 /* ConfigurableHeaderFooterView.swift */; };
+		C4214B622248C41A00465834 /* ConfigurableCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B612248C41A00465834 /* ConfigurableCollectionViewItem.swift */; };
+		C4214B642248C42E00465834 /* ConfigurableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B632248C42E00465834 /* ConfigurableCollectionView.swift */; };
+		C4214B6E2248C4FE00465834 /* GraphScalingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4214B6D2248C4FE00465834 /* GraphScalingHandler.swift */; };
+		C4214B762248C5EC00465834 /* UIImageView+Text.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B742248C5EC00465834 /* UIImageView+Text.h */; };
+		C4214B772248C5EC00465834 /* UIImageView+Text.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B752248C5EC00465834 /* UIImageView+Text.m */; };
+		C4214B7B2248C76200465834 /* InfinitePaginatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B792248C76200465834 /* InfinitePaginatorViewController.h */; };
+		C4214B7C2248C76200465834 /* InfinitePaginatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B7A2248C76200465834 /* InfinitePaginatorViewController.m */; };
+		C4214B802248C88600465834 /* DateSpan.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B7E2248C88600465834 /* DateSpan.h */; };
+		C4214B812248C88600465834 /* DateSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B7F2248C88600465834 /* DateSpan.m */; };
+		C4214B842248C93E00465834 /* InfiniteDatePageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B822248C93E00465834 /* InfiniteDatePageViewController.h */; };
+		C4214B852248C93E00465834 /* InfiniteDatePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B832248C93E00465834 /* InfiniteDatePageViewController.m */; };
+		C4214B882248C9B000465834 /* DatePageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B862248C9B000465834 /* DatePageHeader.h */; };
+		C4214B892248C9B000465834 /* DatePageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B872248C9B000465834 /* DatePageHeader.m */; };
+		C4214B8C2248C9C200465834 /* PageContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B8A2248C9C200465834 /* PageContentViewController.h */; };
+		C4214B8D2248C9C200465834 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B8B2248C9C200465834 /* PageContentViewController.m */; };
+		C4214B942248CBD700465834 /* HoverHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B922248CBD700465834 /* HoverHandler.h */; };
+		C4214B952248CBD700465834 /* HoverHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B932248CBD700465834 /* HoverHandler.m */; };
+		C4214B9A2248F65100465834 /* GenericGraphData.h in Headers */ = {isa = PBXBuildFile; fileRef = C4214B982248F65100465834 /* GenericGraphData.h */; };
+		C4214B9B2248F65100465834 /* GenericGraphData.m in Sources */ = {isa = PBXBuildFile; fileRef = C4214B992248F65100465834 /* GenericGraphData.m */; };
+		F17722B41F9004F966FDCBD0 /* Pods_ToolBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C39C5EEA8932D7A8BB4B94 /* Pods_ToolBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2397448DED066E86CA90FEB7 /* Pods-ToolBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToolBox/Pods-ToolBox.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8C0D503A42F4DE57467E81 /* Pods-ToolBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolBox/Pods-ToolBox.release.xcconfig"; sourceTree = "<group>"; };
+		61C39C5EEA8932D7A8BB4B94 /* Pods_ToolBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C414E0872248BC3400181D17 /* ToolBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToolBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C414E08A2248BC3400181D17 /* ToolBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBox.h; sourceTree = "<group>"; };
 		C414E08B2248BC3400181D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C414E0922248BC7D00181D17 /* Lodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lodable.swift; sourceTree = "<group>"; };
+		C414E09F2248BD5200181D17 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		C414E0A12248BDB800181D17 /* Dictionary+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Utils.swift"; sourceTree = "<group>"; };
+		C414E0A32248BDE600181D17 /* Collection+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Utils.swift"; sourceTree = "<group>"; };
+		C414E0A52248BE2100181D17 /* UIButton+TapClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TapClosure.swift"; sourceTree = "<group>"; };
+		C414E0A72248BE3C00181D17 /* UIView+TouchAreaInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TouchAreaInsets.swift"; sourceTree = "<group>"; };
+		C414E0A92248BE5700181D17 /* UITableView+HeaderFooterLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderFooterLayout.swift"; sourceTree = "<group>"; };
+		C414E0AB2248BE6D00181D17 /* PropertyGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyGetter.swift; sourceTree = "<group>"; };
+		C414E0AD2248BE9300181D17 /* UIView+TapClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TapClosure.swift"; sourceTree = "<group>"; };
+		C414E0B52248C02C00181D17 /* PasstroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasstroughView.swift; sourceTree = "<group>"; };
+		C414E0B92248C0BE00181D17 /* CellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellContentView.swift; sourceTree = "<group>"; };
+		C4214B522248C2EE00465834 /* UIStackView+RemoveAllSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+RemoveAllSubviews.swift"; sourceTree = "<group>"; };
+		C4214B572248C39200465834 /* ConfigurableProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableProtocols.swift; sourceTree = "<group>"; };
+		C4214B592248C3BA00465834 /* ConfigurableTableViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableTableViewRow.swift; sourceTree = "<group>"; };
+		C4214B5B2248C3CC00465834 /* ConfigurableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableTableView.swift; sourceTree = "<group>"; };
+		C4214B5D2248C3E500465834 /* ConfigurableTableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableTableViewSection.swift; sourceTree = "<group>"; };
+		C4214B5F2248C3FE00465834 /* ConfigurableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableHeaderFooterView.swift; sourceTree = "<group>"; };
+		C4214B612248C41A00465834 /* ConfigurableCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCollectionViewItem.swift; sourceTree = "<group>"; };
+		C4214B632248C42E00465834 /* ConfigurableCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableCollectionView.swift; sourceTree = "<group>"; };
+		C4214B6D2248C4FE00465834 /* GraphScalingHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScalingHandler.swift; sourceTree = "<group>"; };
+		C4214B742248C5EC00465834 /* UIImageView+Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Text.h"; sourceTree = "<group>"; };
+		C4214B752248C5EC00465834 /* UIImageView+Text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Text.m"; sourceTree = "<group>"; };
+		C4214B792248C76200465834 /* InfinitePaginatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfinitePaginatorViewController.h; sourceTree = "<group>"; };
+		C4214B7A2248C76200465834 /* InfinitePaginatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfinitePaginatorViewController.m; sourceTree = "<group>"; };
+		C4214B7D2248C80C00465834 /* PaginatorConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginatorConstants.h; sourceTree = "<group>"; };
+		C4214B7E2248C88600465834 /* DateSpan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateSpan.h; sourceTree = "<group>"; };
+		C4214B7F2248C88600465834 /* DateSpan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateSpan.m; sourceTree = "<group>"; };
+		C4214B822248C93E00465834 /* InfiniteDatePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfiniteDatePageViewController.h; sourceTree = "<group>"; };
+		C4214B832248C93E00465834 /* InfiniteDatePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteDatePageViewController.m; sourceTree = "<group>"; };
+		C4214B862248C9B000465834 /* DatePageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePageHeader.h; sourceTree = "<group>"; };
+		C4214B872248C9B000465834 /* DatePageHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePageHeader.m; sourceTree = "<group>"; };
+		C4214B8A2248C9C200465834 /* PageContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		C4214B8B2248C9C200465834 /* PageContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		C4214B922248CBD700465834 /* HoverHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoverHandler.h; sourceTree = "<group>"; };
+		C4214B932248CBD700465834 /* HoverHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoverHandler.m; sourceTree = "<group>"; };
+		C4214B982248F65100465834 /* GenericGraphData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericGraphData.h; sourceTree = "<group>"; };
+		C4214B992248F65100465834 /* GenericGraphData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericGraphData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +98,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17722B41F9004F966FDCBD0 /* Pods_ToolBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		467F1A7737688AE478FAAFC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C39C5EEA8932D7A8BB4B94 /* Pods_ToolBox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF38F52BDAF4A2744EA7EB3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2397448DED066E86CA90FEB7 /* Pods-ToolBox.debug.xcconfig */,
+				5A8C0D503A42F4DE57467E81 /* Pods-ToolBox.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C414E07D2248BC3400181D17 = {
 			isa = PBXGroup;
 			children = (
 				C414E0892248BC3400181D17 /* ToolBox */,
 				C414E0882248BC3400181D17 /* Products */,
+				BF38F52BDAF4A2744EA7EB3F /* Pods */,
+				467F1A7737688AE478FAAFC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +143,95 @@
 		C414E0892248BC3400181D17 /* ToolBox */ = {
 			isa = PBXGroup;
 			children = (
+				C4214B782248C62700465834 /* Paginator */,
+				C4214B6F2248C58600465834 /* ImageView */,
+				C4214B6C2248C4E900465834 /* CorePlotGraphUtils */,
+				C4214B542248C37500465834 /* ConfigurableUI */,
 				C414E08A2248BC3400181D17 /* ToolBox.h */,
 				C414E08B2248BC3400181D17 /* Info.plist */,
+				C414E0922248BC7D00181D17 /* Lodable.swift */,
+				C414E09F2248BD5200181D17 /* Dynamic.swift */,
+				C414E0A12248BDB800181D17 /* Dictionary+Utils.swift */,
+				C414E0A32248BDE600181D17 /* Collection+Utils.swift */,
+				C414E0A52248BE2100181D17 /* UIButton+TapClosure.swift */,
+				C414E0A72248BE3C00181D17 /* UIView+TouchAreaInsets.swift */,
+				C414E0A92248BE5700181D17 /* UITableView+HeaderFooterLayout.swift */,
+				C414E0AB2248BE6D00181D17 /* PropertyGetter.swift */,
+				C414E0AD2248BE9300181D17 /* UIView+TapClosure.swift */,
+				C414E0B52248C02C00181D17 /* PasstroughView.swift */,
+				C414E0B92248C0BE00181D17 /* CellContentView.swift */,
+				C4214B522248C2EE00465834 /* UIStackView+RemoveAllSubviews.swift */,
 			);
 			path = ToolBox;
+			sourceTree = "<group>";
+		};
+		C4214B542248C37500465834 /* ConfigurableUI */ = {
+			isa = PBXGroup;
+			children = (
+				C4214B562248C38500465834 /* ConfigurableTableView */,
+				C4214B552248C37D00465834 /* ConfigurableCollectionView */,
+				C4214B572248C39200465834 /* ConfigurableProtocols.swift */,
+			);
+			path = ConfigurableUI;
+			sourceTree = "<group>";
+		};
+		C4214B552248C37D00465834 /* ConfigurableCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C4214B612248C41A00465834 /* ConfigurableCollectionViewItem.swift */,
+				C4214B632248C42E00465834 /* ConfigurableCollectionView.swift */,
+			);
+			path = ConfigurableCollectionView;
+			sourceTree = "<group>";
+		};
+		C4214B562248C38500465834 /* ConfigurableTableView */ = {
+			isa = PBXGroup;
+			children = (
+				C4214B592248C3BA00465834 /* ConfigurableTableViewRow.swift */,
+				C4214B5B2248C3CC00465834 /* ConfigurableTableView.swift */,
+				C4214B5D2248C3E500465834 /* ConfigurableTableViewSection.swift */,
+				C4214B5F2248C3FE00465834 /* ConfigurableHeaderFooterView.swift */,
+			);
+			path = ConfigurableTableView;
+			sourceTree = "<group>";
+		};
+		C4214B6C2248C4E900465834 /* CorePlotGraphUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C4214B6D2248C4FE00465834 /* GraphScalingHandler.swift */,
+				C4214B922248CBD700465834 /* HoverHandler.h */,
+				C4214B932248CBD700465834 /* HoverHandler.m */,
+				C4214B982248F65100465834 /* GenericGraphData.h */,
+				C4214B992248F65100465834 /* GenericGraphData.m */,
+			);
+			path = CorePlotGraphUtils;
+			sourceTree = "<group>";
+		};
+		C4214B6F2248C58600465834 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C4214B742248C5EC00465834 /* UIImageView+Text.h */,
+				C4214B752248C5EC00465834 /* UIImageView+Text.m */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		C4214B782248C62700465834 /* Paginator */ = {
+			isa = PBXGroup;
+			children = (
+				C4214B792248C76200465834 /* InfinitePaginatorViewController.h */,
+				C4214B7A2248C76200465834 /* InfinitePaginatorViewController.m */,
+				C4214B7D2248C80C00465834 /* PaginatorConstants.h */,
+				C4214B7E2248C88600465834 /* DateSpan.h */,
+				C4214B7F2248C88600465834 /* DateSpan.m */,
+				C4214B822248C93E00465834 /* InfiniteDatePageViewController.h */,
+				C4214B832248C93E00465834 /* InfiniteDatePageViewController.m */,
+				C4214B862248C9B000465834 /* DatePageHeader.h */,
+				C4214B872248C9B000465834 /* DatePageHeader.m */,
+				C4214B8A2248C9C200465834 /* PageContentViewController.h */,
+				C4214B8B2248C9C200465834 /* PageContentViewController.m */,
+			);
+			path = Paginator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +241,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4214B802248C88600465834 /* DateSpan.h in Headers */,
+				C4214B762248C5EC00465834 /* UIImageView+Text.h in Headers */,
+				C4214B7B2248C76200465834 /* InfinitePaginatorViewController.h in Headers */,
+				C4214B882248C9B000465834 /* DatePageHeader.h in Headers */,
+				C4214B842248C93E00465834 /* InfiniteDatePageViewController.h in Headers */,
 				C414E08C2248BC3400181D17 /* ToolBox.h in Headers */,
+				C4214B8C2248C9C200465834 /* PageContentViewController.h in Headers */,
+				C4214B942248CBD700465834 /* HoverHandler.h in Headers */,
+				C4214B9A2248F65100465834 /* GenericGraphData.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C414E08F2248BC3400181D17 /* Build configuration list for PBXNativeTarget "ToolBox" */;
 			buildPhases = (
+				E7CDC57FA1E003E81C9C6CD9 /* [CP] Check Pods Manifest.lock */,
 				C414E0822248BC3400181D17 /* Headers */,
 				C414E0832248BC3400181D17 /* Sources */,
 				C414E0842248BC3400181D17 /* Frameworks */,
@@ -95,6 +286,7 @@
 				TargetAttributes = {
 					C414E0862248BC3400181D17 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -125,11 +317,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E7CDC57FA1E003E81C9C6CD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToolBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C414E0832248BC3400181D17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4214B602248C3FE00465834 /* ConfigurableHeaderFooterView.swift in Sources */,
+				C4214B5C2248C3CC00465834 /* ConfigurableTableView.swift in Sources */,
+				C414E0AE2248BE9300181D17 /* UIView+TapClosure.swift in Sources */,
+				C414E0A82248BE3C00181D17 /* UIView+TouchAreaInsets.swift in Sources */,
+				C414E0AA2248BE5700181D17 /* UITableView+HeaderFooterLayout.swift in Sources */,
+				C4214B6E2248C4FE00465834 /* GraphScalingHandler.swift in Sources */,
+				C4214B812248C88600465834 /* DateSpan.m in Sources */,
+				C414E0AC2248BE6D00181D17 /* PropertyGetter.swift in Sources */,
+				C414E0A22248BDB800181D17 /* Dictionary+Utils.swift in Sources */,
+				C4214B7C2248C76200465834 /* InfinitePaginatorViewController.m in Sources */,
+				C4214B9B2248F65100465834 /* GenericGraphData.m in Sources */,
+				C4214B582248C39200465834 /* ConfigurableProtocols.swift in Sources */,
+				C4214B892248C9B000465834 /* DatePageHeader.m in Sources */,
+				C414E0B62248C02C00181D17 /* PasstroughView.swift in Sources */,
+				C414E0BA2248C0BE00181D17 /* CellContentView.swift in Sources */,
+				C414E0A02248BD5200181D17 /* Dynamic.swift in Sources */,
+				C4214B852248C93E00465834 /* InfiniteDatePageViewController.m in Sources */,
+				C4214B5A2248C3BA00465834 /* ConfigurableTableViewRow.swift in Sources */,
+				C4214B772248C5EC00465834 /* UIImageView+Text.m in Sources */,
+				C4214B952248CBD700465834 /* HoverHandler.m in Sources */,
+				C4214B642248C42E00465834 /* ConfigurableCollectionView.swift in Sources */,
+				C414E0A42248BDE600181D17 /* Collection+Utils.swift in Sources */,
+				C414E0932248BC7D00181D17 /* Lodable.swift in Sources */,
+				C4214B8D2248C9C200465834 /* PageContentViewController.m in Sources */,
+				C414E0A62248BE2100181D17 /* UIButton+TapClosure.swift in Sources */,
+				C4214B5E2248C3E500465834 /* ConfigurableTableViewSection.swift in Sources */,
+				C4214B622248C41A00465834 /* ConfigurableCollectionViewItem.swift in Sources */,
+				C4214B532248C2EE00465834 /* UIStackView+RemoveAllSubviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +501,9 @@
 		};
 		C414E0902248BC3400181D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2397448DED066E86CA90FEB7 /* Pods-ToolBox.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.functional.ToolBox;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,7 +529,9 @@
 		};
 		C414E0912248BC3400181D17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8C0D503A42F4DE57467E81 /* Pods-ToolBox.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

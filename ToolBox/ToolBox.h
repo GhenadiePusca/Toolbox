@@ -3,7 +3,6 @@
 //  ToolBox
 //
 //  Created by Pusca, Ghenadie on 25/03/2019.
-//  Copyright © 2019 Pusca, Ghenadie. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

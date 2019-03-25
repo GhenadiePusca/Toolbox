@@ -1,0 +1,24 @@
+PODS:
+  - CorePlot (2.2)
+  - Masonry (1.1.0)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - CorePlot (~> 2.2)
+  - Masonry (~> 1.1.0)
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CorePlot
+    - Masonry
+    - SnapKit
+
+SPEC CHECKSUMS:
+  CorePlot: cbe0c6e14220705e32e06a89c7d6a5a908b7d7d8
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: b8beb70c8ea82092562dd88d81b4fcf857fe265a
+
+COCOAPODS: 1.5.3
